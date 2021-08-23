@@ -1,0 +1,116 @@
+.acc__main {
+    background-color: #f2bc84;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    flex-direction: column;
+    overflow: hidden;
+    color: #30110d;
+}
+
+.acc__title {
+    font-family: 'Poppins' , 'sans-serif';
+    font-weight: 700;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 25px;
+
+}
+
+.acc__subtitle1 , .acc__subtitle2 {
+    font-family: 'Poppins' , 'sans-serif';
+    font-weight: 400;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.acc__section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.acc__cards {
+    min-height: 275px;
+    width: 325px;
+    border-radius: 15px;
+    padding: 15px;
+    margin: 20px;
+    box-shadow: 0 0px 6px rgba(0,0,0,0.4);
+}
+
+.acc__cardtitle {
+    font-size: 1.75rem;
+    color: #30110d;
+    font-family: inherit;
+    text-align: center;
+}
+
+.acc__cardcontent {
+    font-size: 1.25rem;
+    color: #722620;
+    font-family: inherit;
+    text-align: center;
+}
+
+.acc__img1 {
+    color: rgb(7, 184, 243);
+    font-size: 3.5rem;
+    margin: 15px;
+    text-align: center;
+
+}
+
+.acc__img2 {
+    color: blue;
+    font-size: 3.5rem;
+    margin: 15px;
+    text-align: center;
+}
+
+.acc__img3 {
+    color: purple;
+    font-size: 3.5rem;
+    margin: 15px;
+    text-align: center;
+}
+
+.acc__button {
+    background-color: #30110d;
+    text-decoration: none;
+    font-size: 2.25rem;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 15px;
+    color: white;
+    margin: 15px;
+    cursor: pointer;
+    font-family: 'Poppins', 'sans-serif';
+}
+
+.acc__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.acc__btntxt {
+    margin-left: 10px;
+}
+
+.acc__button:hover {
+    opacity: 0.9;
+}
+
+
+

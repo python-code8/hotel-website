@@ -1,0 +1,37 @@
+.foomain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+    
+}
+
+.contact {
+    font-size: 2.5rem;
+}
+
+.copy {
+    text-align: center;
+    color: white;
+    font-size: 1.25rem;
+    margin-bottom: 20px;
+}
+
+.email {
+    color: white;
+    margin: auto 30px;
+}
+
+.phone {
+    color: white;
+    margin: auto 30px;
+}
+
+.footitle {
+    color: white;
+    font-size: 2rem;
+    margin: 15px;
+    font-family: 'Poppins', 'sans-serif';
+}
+

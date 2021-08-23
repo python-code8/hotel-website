@@ -1,0 +1,33 @@
+@media screen and (max-width: 1100px) {
+    .acc__main {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+    }
+    .acc__title{
+        font-size: 2.5rem ;
+        margin: 20px;
+    }
+    .acc__subtitle1 , .acc__subtitle2 , .acc__subtitle3 {
+        font-size: 1.75rem;
+        margin: 20px;
+    }
+    .acc__button {
+        font-size: 1.5rem;
+        padding: 10px 15px;
+    }
+    .acc__cards {
+        width: 275px;
+    }
+    .acc__section {
+        flex-wrap: wrap;
+    }
+    .acc__cardtitle {
+        font-size: 2rem;
+    }
+    .acc__cardcontent {
+        font-size: 1.5rem;
+    }
+}
